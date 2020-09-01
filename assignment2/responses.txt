@@ -1,0 +1,7 @@
+1.  The Internet is a global network of networks while the World Wide Web is collection of information which is accessed via the Internet.
+2.  The Internet is a global computer network for communication not unlike a basic computer network. Data moves over the Internet in a manner called “packet    switching.” 
+3.  The path of a file actually refers to the nesting of its folders, or directories. Directories are hierarchical - directory structural organization resembles a tree, with a single root that branches off into related groups of content.
+4.  You can think of a version control system (VCS) as a way to remember all the changes you made.” It lets you save a snapshot of your complete project at any time you want. For us, VCS will be useful for homework trial and error, free hosting, and establishing a professional portfolio early.
+5.  Done.
+6.  I would argue that my favorite form of art is found in cinema and in particular horror. 
+7.  Done.
