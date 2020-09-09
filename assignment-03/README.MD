@@ -8,4 +8,4 @@
 
 [Responses](./responses.txt)
 
-![Screen shot of Atom homework](./images/AtomScreenShot.PNG)
+![Screenshot of Atom homework](./images/AtomScreenShot.png)
