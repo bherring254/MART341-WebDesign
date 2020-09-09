@@ -1,0 +1,6 @@
+1. Google, Stack Overflow, the Chive
+2. DNS translates domain names to IP addresses so browsers can load Internet resources.
+3. Cookies are usually small text files, given ID tags that are stored on your computer's browser directory.
+4. Protocol, domain name, and path.
+5.
+6. One thing I learned was how internet lines in the ocean are installed. I had no idea about Markdown so it was nice to work with it and learn how to do links, lists, images, and code. Finally, I learned that Mimas, a moon of Saturn, has a crater on it that makes it look like the Death Star.
