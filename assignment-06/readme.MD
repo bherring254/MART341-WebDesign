@@ -1,5 +1,5 @@
-* Britt Herring
-** Assignment 6
+# Britt Herring
+## Assignment 6
 
 A main body page can have only one <head> and <body> element for each page. The <head> element is a container for metadata (data about data) and is placed between the <html> tag and the <body> tag; in this sense we can say that it contains the thoughts of the page. The <meta> element lives inside the head element and contains information about that webpage. The <meta> element is typically used to specify the character set, page description, keywords, author of the document, and viewport settings. The metadata will not be displayed on the page, but are used by browsers to display content or reload page, by keywords in search engines, and other web services.
 
