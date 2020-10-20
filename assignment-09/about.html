@@ -6,18 +6,70 @@
     <meta name="author" content="Britt Herring">
     <meta name="keywords" content="britt herring, homework">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-    <form action="/myspecialplace.php">
-      <label for="fname">Name:</label>
-      <input type="text" id="name" name="name"><br><br>
-      <label for="lname">Email:</label>
-      <input type="text" id="lname" name="lname"><br><br>
-      <label for="lname">Phone Number:</label>
-      <input type="number" id="pnumb" name="pnumb"><br><br>
-      <input type="submit" value="Submit">
-    </form>
+    <title>Contact Information</title>
+    <style media="screen">
+      div {
+        background-color: powderblue;
+        text-align: center;
+        font-size: 14px;
+        border:10px solid black;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      body {
+        font-family: Arial Black;
+        background-color: #EEDCD8;
+      }
+      table, th, td, title {
+        background: powderblue;
+        border: 5px solid black;
+        padding: 4px;
+        text-align: center;
+        font-size: 20px;
+        align: center;
+        color: blue;
+      }
+      th {
+        background: yellow;
+      }
+      a {
+        text-decoration: none;
+      }
+      h1 {
+        color: blue;
+      }
+      .center {
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .aboutcontainer {
+        background-color: yellow;
+        text-align: center;
+        font-size: 16px;
+        width: 60%;
+        height: 50%;
+        top: 0;
+        border: 4px solid;
+      }
+    </style>
   </head>
   <body>
-
+    <nav>
+      <table class="center">
+        <tr>
+          <th><a href="./index.html">Home</a></th>
+          <th><a href="./about.html">About</a></th>
+          <th><a href="./contact.html">Contact</a></th>
+        </tr>
+      </table>
+      <br></br>
+    </nav>
+    <div id="about" height="100%" width="100%">
+      <h1>About My Instructable</h1>
+      <div class="aboutcontainer" id="aboutcontainer" border-style: 2px solid ridge;>
+        <p>I chose this project because I really like to pick goofie things as it makes homework much more engaging! What can I say, I'm a troll. However, I had no idea this site existed so I'm looking forward to utilizing this for life hacks!</p>
+      </div>
+    </br>
+    </div>
   </body>
 </html>
