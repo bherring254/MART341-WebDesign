@@ -1,0 +1,26 @@
+/* This is a comment for CSS!!! Great for debuffing in HTML.*/
+div {
+  background-color: #FFFF00;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  text-align: center;
+  font-size: 30px;
+  color: #04D704;
+  border:10px solid #00FF00;
+  border-radius: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+  background-color: #FF33FF
+}
+.fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+.fill img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
