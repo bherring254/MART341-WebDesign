@@ -1,7 +1,7 @@
-#Britt Herring
-##Assignment 11
+# Britt Herring
+## Assignment 11
 
-##The Assignment PDF didn't give an exact detail of what the content was supposed to be for the web page. I felt that this poem would be a good candidate to follow the steps to complete the assignment.
+## The Assignment PDF didn't give an exact detail of what the content was supposed to be for the web page. I felt that this poem would be a good candidate to follow the steps to complete the assignment.
 
 1. A system, or desktop, font is typically pre-installed and designed for use with applications such as Word or Photoshop. A web font is a font specially tuned for websites using CSS and the @@font-face declaration. Can be a TrueType, WOFF, EOT, SVG, etc. Each is designed for different browsers. A best practice is to use all four while building a website in order to mitigate compatibility issues. On the other hand, a web-safe font such as Arial, Verdana, Times New Roman, Courier, etc., are "safe" because they are installed by default on just about everything. Each of the font types have their place depending on the application.
 
