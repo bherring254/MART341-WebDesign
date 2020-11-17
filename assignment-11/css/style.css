@@ -25,6 +25,12 @@ pre {
   text-align: justify;
   font-size: 37px;
 }
+
+.lyrics {
+  line-height: 33px;
+  letter-spacing: 6px;
+}
+
 .button {
   text-align: center;
   flex-shrink: 0;
