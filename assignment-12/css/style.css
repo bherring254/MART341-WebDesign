@@ -7,10 +7,11 @@ header {
     margin: 1;
     height: 2.15em;
     text-align: right;
+    position: fixed;
 }
 body {
   font-family: Verdana, Arial, Tahoma;
-  font-size: 12px;
+  font-size: 20px;
   background: #C2C6E0;
 }
 img {
