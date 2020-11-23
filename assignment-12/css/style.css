@@ -8,13 +8,15 @@ header {
     height: 2.15em;
     text-align: right;
 }
-
 body {
   font-family: Verdana, Arial, Tahoma;
   font-size: 12px;
   background: #C2C6E0;
 }
-
+img {
+  height: 100%;
+  width: 100%;
+}
 .menu-item {
     display: inline-block;
     margin: 0 0;
@@ -60,17 +62,11 @@ body {
     color: #baf0ef;
     background-color: #a2a2a2;
 }
-
-.fill {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden
-    border:10px solid #586CEF;
-}
-.fill img {
-    flex-shrink: 0;
-    min-width: 100%;
-    min-height: 100%;
-    border:10px solid #586CEF;
+.frame {
+  border:8px solid #586CEF;
+  overflow: hidden;
+  display: flex;
+  height: 200px;
+  width: 200px;
+  float: right;
 }
