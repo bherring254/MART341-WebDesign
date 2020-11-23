@@ -4,10 +4,17 @@ header {
     font-family: sans-serif;
     font-size: 10pt;
     text-transform: uppercase;
-    margin: 0;
+    margin: 1;
     height: 2.15em;
     text-align: right;
 }
+
+body {
+  font-family: Verdana, Arial, Tahoma;
+  font-size: 12px;
+  background: #C2C6E0;
+}
+
 .menu-item {
     display: inline-block;
     margin: 0 0;
@@ -54,8 +61,16 @@ header {
     background-color: #a2a2a2;
 }
 
-body {
-  font-family: Verdana, Arial, Tahoma;
-  font-size: 12px;
-  background: #C2C6E0;
+.fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+    border:10px solid #586CEF;
+}
+.fill img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+    border:10px solid #586CEF;
 }
