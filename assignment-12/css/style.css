@@ -4,10 +4,13 @@ header {
     font-family: sans-serif;
     font-size: 10pt;
     text-transform: uppercase;
-    margin: 1;
+    margin-top: 0;
     height: 2.15em;
+    width: 100%;
     text-align: right;
     position: fixed;
+    top: 0px;
+    left: 0px;
 }
 body {
   font-family: Verdana, Arial, Tahoma;
@@ -71,4 +74,5 @@ img {
   width: 200px;
   float: right;
   margin-left: .7em;
+  margin-top: 20px;
 }
