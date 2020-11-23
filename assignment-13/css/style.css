@@ -1,0 +1,219 @@
+
+* {
+  box-sizing: border-box;
+}
+
+.textareacomments{
+  padding-bottom: 300px;
+}
+
+body {
+  background-color: #C1D9D9;
+}
+
+div {
+  text-align: left;
+  line-height: 1.45em;
+  font-family:  sans-serif;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+h1, h3, h5{
+  text-align: center;
+  font-family: Georgia, sans-serif;
+  font-size: 30px;
+}
+
+.opening-paragraph{
+  color: black;
+  font-size: 16px;
+  font-weight:700;
+}
+
+.opening-paragraph::first-line{
+  font-size: 16px;
+}
+
+.second-paragraph{
+  font-size: 16px;
+}
+
+table {
+  border: 1px dashed black;
+  font-family:  Arial, sans-serif;
+  font-weight: 700;
+  padding: 10px;
+}
+
+
+p {
+  font-family:  Arial, sans-serif;
+  text-align: justify;
+}
+
+header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: #26272b;
+  font-family:  Arial, Verdana;
+  text-transform: uppercase;
+  margin-top: 0;
+  height: 4em;
+  width: 100%;
+  text-align: left;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.menu-item {
+  display: inline-block;
+  margin: 1em .2em;
+  min-width: 6em;
+  text-align: center;
+  background-color: #26272b;
+  padding: 0.5em 1em;
+}
+
+.menu-item a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu-item:hover {
+  background-color: gray;
+
+}
+
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  border: 1px solid #000;
+  margin: 0.5em 0 0 -1em;
+  color: #000;
+  background-color: #fff;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #000;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-item {
+  display: block;
+  text-align: left;
+  margin: 0;
+  padding: 0.5em 1em 0.5em 1em;
+  min-width: 5.9em;
+}
+
+.dropdown-item:hover, .dropdown-item:hover a {
+  color: black;
+  background-color: #a2a2a2;
+}
+.site-name {
+    margin-top: 5em;
+}
+
+.mainimage{
+    content:url("../images/importantfront.jpg");
+    border:8px solid black;
+    max-width: 50%;
+    overflow: hidden;
+    padding: 0;
+    margin-left: 2em;
+    margin-right: 1em;
+    float: right;
+  }
+}
+
+
+@media only screen and (min-width: 600px) {
+  .mainimage{
+    border:8px solid black;
+    max-width: 40%;
+    overflow: hidden;
+    padding: 0;
+    margin-left: 2em;
+    float: right;
+  }
+}
+
+.secondimage{
+
+  content:url("../images/lawyerfun.jpg");
+  border:8px solid black;
+  max-width: 50%;
+  overflow: hidden;
+  padding: 0;
+  margin-left: 2em;
+  float: right;
+}
+
+
+@media only screen and (min-width: 600px) {
+  .secondimage{
+    content:url("../images/lawyerfun.jpg");
+    border:8px solid black;
+    max-width: 50%;
+    overflow: hidden;
+    padding: 0;
+    margin-left: 2em;
+    float: right;
+  }
+}
+
+.thirdimage{
+  margin: auto;
+  content:url("../images/road3-small.jpg");
+}
+
+/* For width 600px and larger: */
+@media only screen and (min-width: 600px) {
+  .thirdimage{
+      margin: auto;
+      content:url("../images/road3.jpg");
+  }
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.contactus{
+  width:50%;
+  margin-left: 25%;
+
+}

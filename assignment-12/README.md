@@ -1,5 +1,5 @@
-# Britt Herring
-## Assignment 12
+  # Britt Herring
+  ## Assignment 12
 
 1. Padding is the amount of space between the inner content of the element and the element itself. Margin is the space between the element and other elements. Borders can be created in one lump property (or each side) and property of the outside of that element selected.
 
