@@ -14,7 +14,7 @@ div {
 }
 h1, h3, h5 {
   text-align: center;
-  font-family: Georgia, sans-serif;
+  font-family: RoBoto, sans-serif;
   font-size: 30px;
 }
 img {
@@ -41,7 +41,7 @@ table {
   padding: 10px;
 }
 p{
-  font-family:  Arial, sans-serif;
+  font-family: RoBoto, sans-serif;
   text-align: justify;
 }
 header {
