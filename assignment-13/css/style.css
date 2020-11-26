@@ -2,41 +2,36 @@
 * {
   box-sizing: border-box;
 }
-
-.textareacomments{
-  padding-bottom: 300px;
-}
-
 body {
-  background-color: #C1D9D9;
+  background-color: #C1D9D9
 }
-
 div {
   text-align: left;
   line-height: 1.45em;
   font-family:  sans-serif;
-  margin-bottom: 20px;
+  margin-bottom: 1.5em;
   padding: 5px;
 }
-
-h1, h3, h5{
+h1, h3, h5 {
   text-align: center;
   font-family: Georgia, sans-serif;
   font-size: 30px;
 }
-
+img {
+  max-width: 100%;
+  height: auto;
+}
 .opening-paragraph{
   color: black;
   font-size: 16px;
   font-weight:700;
 }
-
-.opening-paragraph::first-line{
-  font-size: 16px;
+.opening-paragraph::first-line {
+  font-size: 18px;
 }
-
-.second-paragraph{
+.second-paragraph {
   font-size: 16px;
+
 }
 
 table {
@@ -45,13 +40,10 @@ table {
   font-weight: 700;
   padding: 10px;
 }
-
-
-p {
+p{
   font-family:  Arial, sans-serif;
   text-align: justify;
 }
-
 header {
   position: fixed;
   top: 0px;
@@ -60,35 +52,53 @@ header {
   font-family:  Arial, Verdana;
   text-transform: uppercase;
   margin-top: 0;
-  height: 4em;
+  height: 5em;
   width: 100%;
-  text-align: left;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-.menu-item {
+.menu-item{
   display: inline-block;
   margin: 1em .2em;
-  min-width: 6em;
-  text-align: center;
+  text-align: left;
   background-color: #26272b;
   padding: 0.5em 1em;
 }
 
+@media only screen and (min-width: 600px) {
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+}
+
+[class*="col-"] {
+  width: 100%;
+  float: left;
+  padding: 15px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 .menu-item a {
   color: #fff;
   text-decoration: none;
 }
-
 .menu-item:hover {
   background-color: gray;
-
 }
-
+.textareacomments{
+  padding-bottom: 300px;
+}
 .dropdown {
   display: inline-block;
 }
@@ -121,99 +131,133 @@ img {
 
 .dropdown-item:hover, .dropdown-item:hover a {
   color: black;
-  background-color: #a2a2a2;
-}
+  background-color: #a2a2a2;}
+
 .site-name {
     margin-top: 5em;
-}
+    line-height: 2.5em;
+  }
 
 .mainimage{
     content:url("../images/importantfront.jpg");
-    border:8px solid black;
-    max-width: 50%;
+    max-width: 100%;
+    width: 450px;
+    height: 100%;
     overflow: hidden;
     padding: 0;
-    margin-left: 2em;
-    margin-right: 1em;
-    float: right;
+    border: 8px solid black;
   }
-}
-
 
 @media only screen and (min-width: 600px) {
-  .mainimage{
-    border:8px solid black;
-    max-width: 40%;
-    overflow: hidden;
-    padding: 0;
-    margin-left: 2em;
-    float: right;
+      .mainimage{
+          content:url("../images/importantfront.jpg");
+          width: 550px;
+          height: 100%;
+          float: right;
+          margin-left: 2em;
+      }
   }
-}
 
-.secondimage{
-
+.secondimage {
   content:url("../images/lawyerfun.jpg");
-  border:8px solid black;
-  max-width: 50%;
+  max-width: 100%;
+  width: 450px;
+  height: 100%;
   overflow: hidden;
   padding: 0;
-  margin-left: 2em;
-  float: right;
+  border: 8px solid black;
+  margin-top: 2.5em;
 }
-
 
 @media only screen and (min-width: 600px) {
-  .secondimage{
-    content:url("../images/lawyerfun.jpg");
-    border:8px solid black;
-    max-width: 50%;
-    overflow: hidden;
-    padding: 0;
-    margin-left: 2em;
-    float: right;
+      .secondimage{
+          content:url("../images/lawyerfun.jpg");
+          float: right;
+          width: 550px;
+          height: 100%;
+          margin-left: 2em;
+      }
   }
-}
 
 .thirdimage{
-  margin: auto;
-  content:url("../images/road3-small.jpg");
+  content:url("../images/frontsteps.jpg");
+  max-width: 100%;
+  width: 450px;
+  height: 100%;
+  overflow: hidden;
+  padding: 0;
+  border: 8px solid black;
 }
 
-/* For width 600px and larger: */
 @media only screen and (min-width: 600px) {
-  .thirdimage{
-      margin: auto;
-      content:url("../images/road3.jpg");
+      .thirdimage{
+          content:url("../images/frontsteps.jpg");
+          float: right;
+          width: 550px;
+          max-width: 100%;
+          max-height: 100%;
+          margin-left: 2em;
+      }
   }
+
+  .fourthimage{
+    content:url("../images/hammer.jpg");
+    overflow: hidden;
+    padding: 0;
+    border: 8px solid black;
+  }
+
+  @media only screen and (min-width: 600px) {
+        .fourthimage{
+            content:url("../images/hammer.jpg");
+            max-width: 100%;
+            border: 8px solid black;
+        }
+    }
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
 }
 
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
+input[type=submit] {
+  background-color: #26272b;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
 
-[class*="col-"] {
+input[type=submit]:hover {
+  background-color: gray;
+}
+
+.container {
+  background-color: #C1D9D9;
+  padding: 10px;
+}
+
+
+.column {
   float: left;
-  padding: 15px;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
 }
 
-.row::after {
+.row:after {
   content: "";
-  clear: both;
   display: table;
+  clear: both;
 }
 
-.contactus{
-  width:50%;
-  margin-left: 25%;
-
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
 }

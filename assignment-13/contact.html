@@ -6,10 +6,58 @@
     <meta name="author" content="Britt Herring">
     <meta name="keywords" content="britt herring, homework">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/fonts.css" type="text/css">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
-    <title></title>
+    <title>Homework 13</title>
   </head>
   <body>
-    
-  </body>
+    <header class="navbar">
+    <div class="row">
+      <div class="col-1">
+        <div class="menu-item inline-block">
+            <a href="index.html">Home</a>
+        </div>
+        <div class="menu-item inline-block">
+            <a href="about.html">About</a>
+        </div>
+        <div class="menu-item inline-block">
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="menu-item dropdown">
+          <a href="services.html">Services</a>
+            <div class="dropdown-content">
+                <div class="dropdown-item">
+                    <a href="https://spoonlaw.com/" target="_new">Spoon Law</a>
+                </div>
+                <div class="dropdown-item">
+                    <a href="https://www.garlington.com/" target="_new">Garlington Lohn Robinsony</a>
+                </div>
+                <div class="dropdown-item">
+                    <a href="https://jschultelaw.com/" target="_new">Schulte Law Firm</a>
+                </div>
+            </div>
+          </div>
+      </header>
+      <div class="container">
+  <div class="site-name">
+    <h1>Contact Us</h2>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="./images/hammer.jpg" style="border: 8px solid black">
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name">
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Comments" style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+</body>
 </html>

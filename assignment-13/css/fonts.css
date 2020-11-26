@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'FiraSans';
+    src: url('../fonts/RoBoto-Regular.ttf') format('truetype');
+    font-style: normal;
+ }
+ @font-face {
+    font-family: 'FiraSans';
+    src: url('../fonts/RoBoto-Bold.ttf') format('truetype');
+    font-weight: 700;
+ }
