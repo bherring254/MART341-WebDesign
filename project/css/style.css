@@ -1,5 +1,5 @@
 body {
-    background-color: #C1D9D9
+    background-color: white;
 }
 
 table {
@@ -7,6 +7,7 @@ table {
   border-collapse: collapse;
   min-width: 400px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  background-color: #C1D9D9
 }
 
 td, th {
