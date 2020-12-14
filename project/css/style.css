@@ -7,14 +7,14 @@ table {
   border-collapse: collapse;
   min-width: 400px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-  background-color: #C1D9D9
+  background-color: #C1D9D9;
 }
 
 td, th {
   border: 2px solid #dddddd;
   text-align: center;
   padding: 12px 15px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.30);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 th {
   background-color: #008ae6;
@@ -23,4 +23,38 @@ th {
 }
 tr:nth-child(even) {
   background-color: #dddddd;
+}
+/* Define the main Navigation block */
+.myNav {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    background-color: #008ae6;
+    border: 2px solid #dddddd;
+}
+/* Remove bullets, margin and padding */
+.myNav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.myNav li {
+    float: left;
+    /* Or you can use display: inline; */
+}
+/* Define the block styling for the links */
+.myNav li a {
+    display: inline-block;
+    padding: 9px 15px;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    font-family: arial, sans-serif;
+}
+/* This is optional, however if you want to display the active link differently apply a background to it */
+.myNav li a.active {
+    background-color: #3786E1;
+}
+a:link {
+  text-decoration: none;
 }
