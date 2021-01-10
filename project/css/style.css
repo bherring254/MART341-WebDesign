@@ -1,13 +1,15 @@
+/* Could go with a background image or grey looks good with shadow */
 body {
     background-color: #C0C0C0;
 }
-
+/* Would like to make this available in mobile & desktop screns */
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
   min-width: 400px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.15);
   background-color: #C1D9D9;
+  margin-top: 20px;
 }
 
 td, th {
@@ -21,6 +23,7 @@ th {
   font-size: large;
   color: white;
 }
+/* This will alternate colors of each piece of the table */
 tr:nth-child(even) {
   background-color: #dddddd;
 }
@@ -31,6 +34,8 @@ tr:nth-child(even) {
     line-height: 50px;
     background-color: #008ae6;
     border: 2px solid #dddddd;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+
 }
 /* Remove bullets, margin and padding */
 .myNav ul {
@@ -38,21 +43,25 @@ tr:nth-child(even) {
     padding: 0;
     margin: 0;
 }
+/* Could use float or inline? */
 .myNav li {
-    float: left;
-    /* Or you can use display: inline; */
+    display: inline-block;
+
 }
 /* Define the block styling for the links */
 .myNav li a {
     display: inline-block;
-    padding: 9px 15px;
+    padding: 8px 10px;
     font-size: 20px;
     color: white;
-    text-transform: uppercase;
     font-family: arial, sans-serif;
+    z-index: 1;
+}
+.myNav li a:hover {
+  color: #C1D9D9;
 }
 /* This is optional, however if you want to display the active link differently apply a background to it */
-.myNav li a.active {
+.myNav li a:active {
     background-color: #3786E1;
 }
 a:link {
